@@ -1,0 +1,137 @@
+/*전체*/
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Gowun Dodum", sans-serif;
+  background-color: rgb(250, 194, 19);
+}
+
+/*헤더*/
+header {
+  margin: 0;
+  width: 100%;
+  height: 150px;
+}
+
+header img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+/*nav*/
+
+nav {
+  width: 90%;
+  height: 10%;
+  padding: 1px;
+  background-color: rgb(32, 32, 32);
+  text-align: center;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+nav.a {
+  text-decoration: none;
+}
+/*제목*/
+h1 {
+  text-align: center;
+  background-color: rgb(214, 28, 78);
+  color: white;
+  margin: 0;
+}
+
+/*이미지 섹션*/
+
+.images {
+  margin: 10px;
+  height: 40%;
+  margin: 20px 20px 20px 20px;
+}
+
+.images img {
+  width: 30%;
+  height: 30%;
+  margin-left: 34%;
+}
+
+.source {
+  font-size: 80%;
+  text-decoration: none;
+  color: rgb(254, 249, 167);
+  text-align: center;
+}
+
+/*인트로덕션 섹션*/
+
+.intros {
+  background-color: rgb(254, 249, 167);
+  padding: 10px 20px 10px 20px;
+  margin: 5px 20px 0px 20px;
+  clear: both;
+}
+
+.intros h2 {
+  color: rgb(104, 66, 23);
+  text-align: center;
+}
+.intros .interest,
+.expect,
+.commment,
+.Pdetail {
+  color: rgb(214, 28, 78);
+}
+
+.intros ul {
+  list-style-type: none;
+}
+
+.expect_content {
+  margin: 0 20px 0 20px;
+}
+
+#commnets {
+  margin: 0 30px 0 30px;
+}
+
+/*footer*/
+.ft {
+  margin: 0;
+  padding: 5px 0 5px 0;
+  text-align: center;
+  color: rgb(254, 249, 167);
+}
+
+.button {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  padding: 2px;
+  background-color: rgb(250, 194, 19);
+  border: dotted 0.5px;
+  color: rgb(254, 249, 167);
+}
+
+/* 더 구현하고 싶은 것 목록
+1) 헤더 위에 텍스트 
+      <a class="source_header" href="https://pixabay.com/ko/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1385706">Pixabay, username: anncapictures</a>
+
+.source_header{
+  font-size: 80%;
+  text-decoration: none;
+  color: inherit;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;}
+
+  2)
+
+  */
